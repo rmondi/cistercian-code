@@ -9,6 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {},
+      width: {
+        diagXL: "219.2px"
+      }
     },
   },
   plugins: [],

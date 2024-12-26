@@ -15,11 +15,11 @@ const Home = () => {
   return (
     <div className="flex-grow xl:flex xl:items-stretch">
       <Sidebar />
-      <div className="xl:flex-grow flex flex-col justify-center xl:items-center my-8 xl:my-0">
+      <div className="xl:flex-grow flex flex-col justify-center items-center my-8 xl:my-0">
         <div>
           <Field updateCode={ setCode } />
         </div>
-        <div>
+        <div className="mt-10">
           <Code code={ code } />
         </div>
       </div>
