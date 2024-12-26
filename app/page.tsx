@@ -10,7 +10,7 @@ import { CodeType } from "@/utils/types";
 
 const Home = () => {
 
-  const [ code, setCode ] = useState<CodeType>( 1 )
+  const [ code, setCode ] = useState<CodeType>( 0 )
   
   return (
     <div className="flex-grow xl:flex xl:items-stretch">

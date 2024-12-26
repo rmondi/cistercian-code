@@ -11,7 +11,7 @@ type FieldType = {
 
 const Field = ( { updateCode }: FieldType ) => {
 
-  const [ value, setValue ] = useState<CodeType|string>( 1 )
+  const [ value, setValue ] = useState<CodeType|string>( 0 )
 
   const handleChange = ( e: React.ChangeEvent<HTMLInputElement> ) => {
     const newValue = e.target.value
@@ -20,7 +20,7 @@ const Field = ( { updateCode }: FieldType ) => {
     if ( isNaN( newIntValue ) ) {
       setValue( newValue )
     } else {
-      if ( newIntValue > 0 && newIntValue <= 9999 ) {
+      if ( newIntValue >= 0 && newIntValue <= 9999 ) {
         setValue( newIntValue )
         updateCode( newIntValue )
       }
@@ -43,7 +43,7 @@ const Field = ( { updateCode }: FieldType ) => {
 
     if ( typeof value !== "string" ) newValue = value - 1
 
-    if ( newValue >= 1 ) {
+    if ( newValue >= 0 ) {
       setValue( newValue )
       updateCode( newValue )
     }
