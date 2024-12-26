@@ -61,13 +61,13 @@ const Field = ( { updateCode }: FieldType ) => {
         onChange={ handleChange }
       />
       <button
-        className="absolute z-10 top-0 right-0 h-10 w-10 flex justify-center items-center bg-slate-700"
+        className="absolute z-10 top-0 right-0 h-10 w-10 flex justify-center items-center bg-slate-700 transition duration-300 hover:bg-slate-600"
         onClick={ handlePlusClick }
       >
         <Plus strokeWidth={ 1.5 } stroke="#FFF" />
       </button>
       <button
-        className="absolute z-10 bottom-0 right-0 h-10 w-10 flex justify-center items-center bg-slate-500"
+        className="absolute z-10 bottom-0 right-0 h-10 w-10 flex justify-center items-center bg-slate-500 transition duration-300 hover:bg-slate-400"
         onClick={ handleMinusClick }
       >
         <Minus strokeWidth={ 1.5 } stroke="#FFF" />
