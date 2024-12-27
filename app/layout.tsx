@@ -9,8 +9,8 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Cistercian Code",
-  description: "Convertisseur de nombre arabe en cistercien",
+  title: "Système cistercien de notation numérique",
+  description: "Convertisseur de nombre arabe en système cistercien de notation numérique",
 };
 
 export default function RootLayout({
