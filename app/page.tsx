@@ -17,7 +17,7 @@ const Home = () => {
   const toggleSidebar = () => setDisplaySidebar( !displaySidebar )
   
   return (
-    <div className="flex-grow xl:flex xl:items-stretch">
+    <div className="flex flex-grow justify-center items-center xl:items-stretch">
       <ToggleSidebar handleClick={ toggleSidebar } />
       <Sidebar display={ displaySidebar } handleClick={ toggleSidebar } />
       <div className="xl:flex-grow flex flex-col justify-center items-center my-8 xl:my-0">

@@ -23,9 +23,6 @@ const Sidebar = ( { display, handleClick }: SidebarType ) => {
         </button>
       </div>
       <div className="flex flex-col px-5 sm:px-8 py-4 sm:py-6 h-full">
-        <h1 className="text-2xl font-semibold text-slate-700">
-          Le système cistercien de notation numérique
-        </h1>
         <p className="my-2">
           Le système cistercien de notation numérique est un système de numérotation développé au Moyen Âge par l'ordre cistercien, vers le 12ᵉ siècle. Ce système repose sur un principe géométrique : chaque chiffre (de 0 à 9) est représenté par un segment de ligne dans un carré divisé en quatre parties. Les segments sont placés de manière spécifique pour indiquer la valeur du chiffre.
         </p>
