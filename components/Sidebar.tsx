@@ -24,10 +24,10 @@ const Sidebar = ( { display, handleClick }: SidebarType ) => {
       </div>
       <div className="flex flex-col px-5 sm:px-8 py-4 sm:py-6 h-full">
         <p className="my-2">
-          Le système cistercien de notation numérique est un système de numérotation développé au Moyen Âge par l'ordre cistercien, vers le 12ᵉ siècle. Ce système repose sur un principe géométrique : chaque chiffre (de 0 à 9) est représenté par un segment de ligne dans un carré divisé en quatre parties. Les segments sont placés de manière spécifique pour indiquer la valeur du chiffre.
+          { "Le système cistercien de notation numérique est un système de numérotation développé au Moyen Âge par l'ordre cistercien, vers le 12ᵉ siècle. Ce système repose sur un principe géométrique : chaque chiffre (de 0 à 9) est représenté par un segment de ligne dans un carré divisé en quatre parties. Les segments sont placés de manière spécifique pour indiquer la valeur du chiffre. " }
         </p>
         <p className="my-2">
-          Ce code permet de représenter des nombres allant de 0 à 9999. Les segments sont positionnés selon quatre zones dans la grille : les deux premières zones pour les dizaines (quart nord-ouest) et les unités (quart nord-est), et les deux suivantes pour les milliers (quart sud-ouest) et les centaines (quart sud-est). La position et l'orientation des segments permettent de distinguer chaque chiffre et ainsi de créer un nombre complet. Ce système était utilisé dans les monastères pour inscrire des nombres de façon concise, notamment sur des documents liturgiques et administratifs.
+          { "Ce code permet de représenter des nombres allant de 0 à 9999. Les segments sont positionnés selon quatre zones dans la grille : les deux premières zones pour les dizaines (quart nord-ouest) et les unités (quart nord-est), et les deux suivantes pour les milliers (quart sud-ouest) et les centaines (quart sud-est). La position et l'orientation des segments permettent de distinguer chaque chiffre et ainsi de créer un nombre complet. Ce système était utilisé dans les monastères pour inscrire des nombres de façon concise, notamment sur des documents liturgiques et administratifs." }
         </p>
         <p className="my-2">
           Voir la fiche <Link className="text-slate-500 transition duration-300 hover:text-slate-900 underline" href="https://fr.wikipedia.org/wiki/Syst%C3%A8me_cistercien_de_notation_num%C3%A9rique" target="_blank">Wikipedia</Link>
